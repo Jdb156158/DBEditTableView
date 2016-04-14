@@ -74,8 +74,9 @@
     [self.activityIndicatorView setCenter:self.opaqueview.center];
     
     [ self.activityIndicatorView   setActivityIndicatorViewStyle: UIActivityIndicatorViewStyleWhite];  //颜色根据不同的界面自己调整
-    [ self.opaqueview  setBackgroundColor:[ UIColor   blackColor]];
-    [ self.opaqueview  setAlpha: 0.6 ];
+    self.activityIndicatorView.color = [UIColor blackColor];
+    [ self.opaqueview  setBackgroundColor:[UIColor  groupTableViewBackgroundColor]];
+    [ self.opaqueview  setAlpha: 1.0 ];
     [ self.view  addSubview :  self.opaqueview];
     [ self.opaqueview  addSubview : self.activityIndicatorView];
 

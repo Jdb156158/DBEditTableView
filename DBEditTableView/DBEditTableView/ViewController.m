@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UBHallViewController.h"
+#import "SendTheContactViewController.h"
 @interface ViewController ()
 
 @end
@@ -109,6 +110,8 @@
     NSInteger row=indexPath.row;//当前行
     NSLog(@"当前第%li组第%li行",(long)section,(long)row);
     if (row == 0) {
+        SendTheContactViewController *SendTheContactView = [[SendTheContactViewController alloc] init];
+        [self.navigationController pushViewController:SendTheContactView animated:YES];
     }else if (row == 1){
     }else if (row == 2){
         UBHallViewController *webhall = [[UBHallViewController alloc] init];
