@@ -19,10 +19,10 @@
 		6DC24AAA1CBF7D8600082E4A /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC24AA51CBF7D8600082E4A /* Contact.m */; };
 		6DC24AAB1CBF7D8600082E4A /* ContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC24AA71CBF7D8600082E4A /* ContactManager.m */; };
 		6DC24AAC1CBF7D8600082E4A /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC24AA91CBF7D8600082E4A /* MBProgressHUD.m */; };
-		6DC24AB11CBF978C00082E4A /* IMG_0164.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6DC24AAD1CBF978C00082E4A /* IMG_0164.PNG */; };
-		6DC24AB21CBF978C00082E4A /* IMG_0167.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6DC24AAE1CBF978C00082E4A /* IMG_0167.PNG */; };
-		6DC24AB31CBF978C00082E4A /* IMG_0168.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6DC24AAF1CBF978C00082E4A /* IMG_0168.PNG */; };
-		6DC24AB41CBF978C00082E4A /* IMG_0170.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6DC24AB01CBF978C00082E4A /* IMG_0170.PNG */; };
+		6DC24AB91CBF9B5F00082E4A /* IMG_0164.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6DC24AB51CBF9B5F00082E4A /* IMG_0164.PNG */; };
+		6DC24ABA1CBF9B5F00082E4A /* IMG_0167.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6DC24AB61CBF9B5F00082E4A /* IMG_0167.PNG */; };
+		6DC24ABB1CBF9B5F00082E4A /* IMG_0168.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6DC24AB71CBF9B5F00082E4A /* IMG_0168.PNG */; };
+		6DC24ABC1CBF9B5F00082E4A /* IMG_0170.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6DC24AB81CBF9B5F00082E4A /* IMG_0170.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,10 +47,10 @@
 		6DC24AA71CBF7D8600082E4A /* ContactManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactManager.m; sourceTree = "<group>"; };
 		6DC24AA81CBF7D8600082E4A /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		6DC24AA91CBF7D8600082E4A /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		6DC24AAD1CBF978C00082E4A /* IMG_0164.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0164.PNG; sourceTree = SOURCE_ROOT; };
-		6DC24AAE1CBF978C00082E4A /* IMG_0167.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0167.PNG; sourceTree = SOURCE_ROOT; };
-		6DC24AAF1CBF978C00082E4A /* IMG_0168.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0168.PNG; sourceTree = SOURCE_ROOT; };
-		6DC24AB01CBF978C00082E4A /* IMG_0170.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0170.PNG; sourceTree = SOURCE_ROOT; };
+		6DC24AB51CBF9B5F00082E4A /* IMG_0164.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0164.PNG; sourceTree = SOURCE_ROOT; };
+		6DC24AB61CBF9B5F00082E4A /* IMG_0167.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0167.PNG; sourceTree = SOURCE_ROOT; };
+		6DC24AB71CBF9B5F00082E4A /* IMG_0168.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0168.PNG; sourceTree = SOURCE_ROOT; };
+		6DC24AB81CBF9B5F00082E4A /* IMG_0170.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0170.PNG; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +105,10 @@
 		6DC24A841CBF434200082E4A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6DC24AAD1CBF978C00082E4A /* IMG_0164.PNG */,
-				6DC24AAE1CBF978C00082E4A /* IMG_0167.PNG */,
-				6DC24AAF1CBF978C00082E4A /* IMG_0168.PNG */,
-				6DC24AB01CBF978C00082E4A /* IMG_0170.PNG */,
+				6DC24AB51CBF9B5F00082E4A /* IMG_0164.PNG */,
+				6DC24AB61CBF9B5F00082E4A /* IMG_0167.PNG */,
+				6DC24AB71CBF9B5F00082E4A /* IMG_0168.PNG */,
+				6DC24AB81CBF9B5F00082E4A /* IMG_0170.PNG */,
 				6DC24A851CBF434200082E4A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -185,12 +185,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DC24A941CBF434200082E4A /* LaunchScreen.storyboard in Resources */,
-				6DC24AB21CBF978C00082E4A /* IMG_0167.PNG in Resources */,
+				6DC24ABA1CBF9B5F00082E4A /* IMG_0167.PNG in Resources */,
 				6DC24A911CBF434200082E4A /* Assets.xcassets in Resources */,
-				6DC24AB41CBF978C00082E4A /* IMG_0170.PNG in Resources */,
+				6DC24ABC1CBF9B5F00082E4A /* IMG_0170.PNG in Resources */,
 				6DC24AA21CBF7CF600082E4A /* SendTheContactViewController.xib in Resources */,
-				6DC24AB31CBF978C00082E4A /* IMG_0168.PNG in Resources */,
-				6DC24AB11CBF978C00082E4A /* IMG_0164.PNG in Resources */,
+				6DC24ABB1CBF9B5F00082E4A /* IMG_0168.PNG in Resources */,
+				6DC24AB91CBF9B5F00082E4A /* IMG_0164.PNG in Resources */,
 				6DC24A8F1CBF434200082E4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
