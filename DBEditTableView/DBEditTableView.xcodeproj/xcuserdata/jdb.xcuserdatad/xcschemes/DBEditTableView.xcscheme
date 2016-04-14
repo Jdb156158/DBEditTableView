@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6D0802391CBCFA0C00428E08"
+               BlueprintIdentifier = "6DC24A801CBF434200082E4A"
                BuildableName = "DBEditTableView.app"
                BlueprintName = "DBEditTableView"
                ReferencedContainer = "container:DBEditTableView.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6D0802391CBCFA0C00428E08"
+            BlueprintIdentifier = "6DC24A801CBF434200082E4A"
             BuildableName = "DBEditTableView.app"
             BlueprintName = "DBEditTableView"
             ReferencedContainer = "container:DBEditTableView.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6D0802391CBCFA0C00428E08"
+            BlueprintIdentifier = "6DC24A801CBF434200082E4A"
             BuildableName = "DBEditTableView.app"
             BlueprintName = "DBEditTableView"
             ReferencedContainer = "container:DBEditTableView.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6D0802391CBCFA0C00428E08"
+            BlueprintIdentifier = "6DC24A801CBF434200082E4A"
             BuildableName = "DBEditTableView.app"
             BlueprintName = "DBEditTableView"
             ReferencedContainer = "container:DBEditTableView.xcodeproj">
