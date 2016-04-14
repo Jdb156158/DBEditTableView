@@ -27,6 +27,9 @@
     [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRed:17/255.0 green:137/255.0 blue:156/255.0 alpha:1.0]];
     [self.navigationController.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],NSForegroundColorAttributeName,nil]];
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    UIBarButtonItem *returnButtonItem = [[UIBarButtonItem alloc] init];
+    returnButtonItem.title = @"返回";
+    self.navigationItem.backBarButtonItem = returnButtonItem;
     
     //添加tableview
     self.MIFITitle =@[@"1编辑进行多选和全选来获取数据",@"2编辑进行多选和全选来删除数据",@"3进入我的github看更多开源代码"];
@@ -109,7 +112,7 @@
     }else if (row == 1){
     }else if (row == 2){
         UBHallViewController *webhall = [[UBHallViewController alloc] init];
-        [webhall setMyWebTitle:@"BingBingJia 的github" andsetMyWebUrlpath:@"https://www.baidu.com/"];
+        [webhall setMyWebTitle:@"BingBingJia 的github" andsetMyWebUrlpath:@"https://github.com/Jdb156158"];
         [self.navigationController pushViewController:webhall animated:YES];
     }
 

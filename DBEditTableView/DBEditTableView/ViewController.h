@@ -11,7 +11,6 @@
 @interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
 }
 
-@property (weak, nonatomic) IBOutlet UINavigationBar *mynavegationView;
 @property (weak, nonatomic) IBOutlet UITableView *TableVieMifiList;
 @property (nonatomic, retain) NSArray *MIFITitle;//我的列表标题
 @end
