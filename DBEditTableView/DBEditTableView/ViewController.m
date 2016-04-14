@@ -33,7 +33,7 @@
     self.navigationItem.backBarButtonItem = returnButtonItem;
     
     //添加tableview
-    self.MIFITitle =@[@"1编辑进行多选和全选来获取数据",@"2编辑进行多选和全选来删除数据",@"3进入我的github看更多开源代码"];
+    self.MIFITitle =@[@"1编辑进行多选和全选来获取数据",@"2进入我的github看更多开源代码"];
     self.TableVieMifiList.delegate = self;
     self.TableVieMifiList.dataSource = self;
     self.TableVieMifiList.tag = 1;
@@ -52,7 +52,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 3;
+    return 2;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -113,7 +113,6 @@
         SendTheContactViewController *SendTheContactView = [[SendTheContactViewController alloc] init];
         [self.navigationController pushViewController:SendTheContactView animated:YES];
     }else if (row == 1){
-    }else if (row == 2){
         UBHallViewController *webhall = [[UBHallViewController alloc] init];
         [webhall setMyWebTitle:@"BingBingJia 的github" andsetMyWebUrlpath:@"https://github.com/Jdb156158"];
         [self.navigationController pushViewController:webhall animated:YES];
