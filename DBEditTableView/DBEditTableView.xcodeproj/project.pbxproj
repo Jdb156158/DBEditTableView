@@ -13,6 +13,7 @@
 		6DC24A8F1CBF434200082E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC24A8D1CBF434200082E4A /* Main.storyboard */; };
 		6DC24A911CBF434200082E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC24A901CBF434200082E4A /* Assets.xcassets */; };
 		6DC24A941CBF434200082E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC24A921CBF434200082E4A /* LaunchScreen.storyboard */; };
+		6DC24A9D1CBF710200082E4A /* UBHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC24A9C1CBF710200082E4A /* UBHallViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6DC24A901CBF434200082E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DC24A931CBF434200082E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DC24A951CBF434200082E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC24A9B1CBF710200082E4A /* UBHallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBHallViewController.h; sourceTree = "<group>"; };
+		6DC24A9C1CBF710200082E4A /* UBHallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBHallViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		6DC24A831CBF434200082E4A /* DBEditTableView */ = {
 			isa = PBXGroup;
 			children = (
+				6DC24A9B1CBF710200082E4A /* UBHallViewController.h */,
+				6DC24A9C1CBF710200082E4A /* UBHallViewController.m */,
 				6DC24A871CBF434200082E4A /* AppDelegate.h */,
 				6DC24A881CBF434200082E4A /* AppDelegate.m */,
 				6DC24A8A1CBF434200082E4A /* ViewController.h */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DC24A9D1CBF710200082E4A /* UBHallViewController.m in Sources */,
 				6DC24A8C1CBF434200082E4A /* ViewController.m in Sources */,
 				6DC24A891CBF434200082E4A /* AppDelegate.m in Sources */,
 				6DC24A861CBF434200082E4A /* main.m in Sources */,
@@ -264,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DBEditTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uimbank.DBEditTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DBEditTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uimbank.DBEditTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
